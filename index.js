@@ -2,3 +2,5 @@
   const _ = await import(/*webpackChunkName:'lodash'*/'lodash')
   console.log(_.join(['hello', 'motto'], ' '))
 })()
+
+let a = '123'
